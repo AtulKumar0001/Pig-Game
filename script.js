@@ -12,7 +12,7 @@ const playerActive0 = document.querySelector('.player--0');
 const playerActive1 = document.querySelector('.player--1');
 let playing, currentScore, activePlayer, scores;
 
-alert("Rules:-First Player to reach 100 wins,If any player gets (1) the turn will be going to be skipped.")
+alert("Rules:-First Player to reach 100 wins,If any player gets (1) the turn will be going to get skipped.")
 const switchPlayer = function () {
   document.getElementById(`current--${activePlayer}`).textContent = 0;
   currentScore = 0;
